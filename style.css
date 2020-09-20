@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    border:none;
+}
+html{
+    height:100%;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+    position:relative;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0px;
+}
+ul{
+    display:flex;
+}
+li{
+    margin-left:auto;
+}
+.ul-left li{
+    margin-left: 20px;
+}
+.ul-right li{
+    margin-right:20px;
+}
+body{
+    text-align:center;
+}
+input{
+    width:550px;
+    height:45px;
+    margin:30px 0px;
+    border:solid;
+    border-color:rgba(128, 128, 128, 0.8);
+    border-radius:24px ;
+}
+input:hover{
+    box-shadow: 5px 10px rgba(128, 128, 128, 0.13);
+}
+button{
+    border-radius:2px;
+    padding:5px 10px;
+}
+.sign-in{
+    background-color:rgba(38, 0, 255, 0.925);
+    color:white;
+    border:none;
+}
+.buttons button{
+    border-radius:5px;
+    margin:0px 50px;
+    height:30px;
+    
+}
+button:hover{
+    transform : scale(1.2);
+}
+.bottom-nav { 
+    background-color:#f2f2f2;
+    color:white;
+}
+ul{
+    list-style-type:none;
+}
+ a{
+    color:#5f6368;
+}
+#apps{
+    background:url(appson.png) no-repeat;
+    width:20px;
+    height:20px;
+    background-size:contain;
+    margin-right:15px;
+}
